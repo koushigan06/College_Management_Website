@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RMKCET ECE</title>
+    <link rel="icon" type="image/x-icon" href="https://rmkcet.ac.in/images/logo-fo.png">
+<style>
+   body, html {
+            margin: 0;
+            padding: 0;
+        }
+    .body {
+        background-color: white;
+    }
+    .bodytxt{
+        text-align: center;
+        color:black;
+        font-size: x-large;
+    }
+    .txtnh{
+        text-align: center;
+        text-decoration-line: underline;
+    }
+    @keyframes example {
+  0%   {color:red; left:0px; top:0px;}
+  25%  {color:yellow; left:200px; top:0px;}
+  50%  {color:blue; left:0px; top:0px;}
+  75%  {color:green; left:200px; top:0px;}
+  100% {color:red; left:0px; top:0px;}
+}
+@keyframes but {
+  0%   {border-color:red; left:0px; top:0px;}
+  25%  {border-color:yellow; left:200px; top:0px;}
+  50%  {border-color:blue; left:0px; top:0px;}
+  75%  {border-color:green; left:200px; top:0px;}
+  100% {border-color:red; left:0px; top:0px;}
+}
+    .text{
+        text-align: left;
+        animation-name: example;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    .card{
+            text-align: center;
+            background-color:blanchedalmond;
+            color: black;
+            padding: 15px;
+        }
+    .img{
+        text-align: left;
+    }
+    .rfb {
+        border-radius: 10px;
+        border-width: 40px;
+        position:absolute;
+        top: 400px; 
+        right: 0;
+        width: 450px; 
+        height: 250px; 
+        background-color:pink;
+        border-color:25px solid black;
+        padding: 15px; 
+    }
+    .box-container {
+            display:grid;
+            flex-wrap:unset;
+            justify-content: space-evenly;
+            grid-template-columns: repeat(2, 50px); 
+            gap: 75px; 
+            margin: auto 25px;
+            width: 750px; 
+            padding-top: 0px;
+    }
+    .box{
+            width: 150px;
+            height: 78px;
+            background-color: lightskyblue;
+            border: 5px solid black;
+            border-radius: 20px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+            cursor: pointer;
+            transition: width 0.2s height 0.2s;
+            font-style: bold;
+            font-size: 20px;
+            color: black;
+            animation-name: but;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+        .box:hover{
+            width: 200px;
+            height: 100px;
+            background-color:lightskyblue;
+        }
+        .card2 {
+        top: 400px; 
+        left: 0;
+        padding: 5px auto;
+        width: 50px; 
+        height: 100px; 
+        }
+        .himg{
+            padding-top: 25px;
+            text-align: left;
+            max-width: 100%;
+            height: auto;
+            position:absolute;
+            display:flex;
+            margin: 0 auto;
+            max-height: 150px;
+        }
+        .himg2{
+            text-align: right;
+            right: 80px;
+            max-width: 50px;
+            height: 100px;
+            position:absolute;
+            display:flex;
+            margin: 0 auto;
+            max-height: 150px;
+        }
+        .himg3{
+            text-align: right;
+            right: 80px;
+            padding-top: 100px;
+            padding-right: 5px;
+            height: 100px;
+            max-width: 50px;
+            position: absolute;
+            display: flex;
+            margin: 0 auto;
+            max-height: 150px;
+        }
+        .foot{
+            text-align: left;
+            right: 0%;
+            background-color:cornflowerblue;
+            color: black;
+            padding: 5px;
+        }
+
+</style>
+<div class="card">
+<div class="himg">
+<img src="https://rmkcet.ac.in/images/logo-fo.png">
+</div>
+<div class="himg2">
+<img src="https://rmkcet.ac.in/iciecs2022/assets/images/nba-logo.png">
+</div>
+<div class="himg3">
+<img src="https://legalcell.org/wp-content/uploads/2020/05/NAAC-A-grade-logo.jpg">
+</div>
+<h1 >R.M.K. College Of Engineering and Technology</h1>
+<h2>(An Autonomous Instituion)</h2>
+<h2>Department Of Electronics and Communication Engineering</h2>
+<h3>R.S.M. Nagar, Puduvoyal, Gummidipoondi Taluk, Tiruvallur District, Tamil Nadu, India.</h3>
+<h3>Pincode:Chennai-601206</h3>
+</div>
+<body class="body">
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+        var digitalNotesElement = document.getElementById('DigitalNotes');
+        digitalNotesElement.onclick = function() {
+            window.location.href = "https://drive.google.com/file/d/1UtbN9RgEkJulIcalE1aCx3fdtWAe_Wei/view?usp=drive_link";
+        }
+    
+        var labElement = document.getElementById('Lab');
+        labElement.onclick = function() {
+            window.location.href = "https://drive.google.com/file/d/1kf33lokSTnd4azey2aNgJF2a1WAAzoxk/view?usp=drive_link";
+        }
+        var staffElement = document.getElementById('Staff');
+        staffElement.onclick = function() {
+            window.location.href = "https://drive.google.com/file/d/1LQs0053CeObEgITOBTxLZYNSXZCqKfHT/view?usp=drive_link";
+        }
+        var studentsElement = document.getElementById('Students');
+        studentsElement.onclick = function() {
+            window.location.href = "https://drive.google.com/file/d/1kI1YhuePGT6IS0O2wS6NBatC5WZEn8YR/view?usp=drive_link";
+        }
+    });
+</script>
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+        var digitalNotesElement = document.getElementById('first');
+        digitalNotesElement.onclick = function() {
+            window.location.href = "https://drive.google.com/file/d/1UtbN9RgEkJulIcalE1aCx3fdtWAe_Wei/view?usp=drive_link";
+        }
+    
+        var labElement = document.getElementById('second');
+        labElement.onclick = function() {
+            window.location.href = "https://drive.google.com/file/d/1kf33lokSTnd4azey2aNgJF2a1WAAzoxk/view?usp=drive_link";
+        }
+        var staffElement = document.getElementById('third');
+        staffElement.onclick = function() {
+            window.location.href = "https://drive.google.com/file/d/1LQs0053CeObEgITOBTxLZYNSXZCqKfHT/view?usp=drive_link";
+        }
+        var studentsElement = document.getElementById('fourth');
+        studentsElement.onclick = function() {
+            window.location.href = "https://drive.google.com/file/d/1kI1YhuePGT6IS0O2wS6NBatC5WZEn8YR/view?usp=drive_link";
+        }
+    });
+</script>
+<p class="bodytxt">Department<br> of<br> <strong>Electronics and Communication Engineering</strong> <br> <strong>Welcomes you!!!</strong></p>
+<div class="rfb">
+<h1 class="txtnh">News&Events</h1>
+<p class="text" id="first">
+*<b>1<sup>st</sup> Semester results have been released</b><br></p>
+<p class="text" id="second">
+*<b>2<sup>nd</sup> Semester results have been released</b><br></p>
+<p class="text" id="third">
+*<b>3<sup>rd</sup> Semester results have been released</b><br></p>
+<p class="text" id="fourth">
+*<b>4<sup>th</sup> Semester results have been released</b><br></p>
+</div>
+<div class="box-container">
+    <div class="card2">
+    <button class="box" id="DigitalNotes">Digital Notes</button>
+    </div>
+    <div class="card2">
+    <button class="box" id="Lab">Lab Manual</button>
+    </div>
+    <div class="card2">
+    <button class="box" id="Staff">Faculty Specializations</button>
+    </div>
+    <div class="card2">
+    <button class="box" id="Students">Students Activities</button>
+    </div>
+</div>
+</body>
+<footer class="foot">
+    <p><q><i>I have provided the atmosphere. It is upto you to rise to the ocassion.</i></q><br>
+        <b>R.S Munirathinam</b><br>
+        <b>Founder and Chairman</b><br>
+        <b>Contact</b><br>
+        <b>Email i'd</b>:hodece@rmkcet.ac.in<br>
+        <abbr title="Phone"><b>Ph</b></abbr> <b>no</b>: +91-44-67900610<br>
+        <b>R.S.M. Nagar, Puduvoyal</b><br>
+        <b>Chennai-601206</b>
+        </p>
+</footer>
+</head>
+</html>
